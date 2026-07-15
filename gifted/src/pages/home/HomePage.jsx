@@ -8,14 +8,15 @@ import FormHomeSection from './sections/form/FormHomeSection'
 
 const HomePage = () => {
   return (
-    <div>
-      {/* <HeroHomeSection />
+    <>
+      <HeroHomeSection />
+      {/* 
       <AboutHomeSection />
       <CollectionsHomeSection />
       <StepsHomeSection />
       <QuestionHomeSection />
       <FormHomeSection /> */}
-    </div>
+    </>
   )
 }
 
