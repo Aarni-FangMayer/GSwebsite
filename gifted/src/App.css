@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("./assets/fonts/Fraunces_72pt-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("./assets/fonts/Fraunces_72pt-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter_18pt-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1F1B19;
+    line-height: 68px;
+    font-size: 58px;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1F1B19;
+    font-size: 38px;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1F1B19;
+    font-size: 19px;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    color: #1F1B19;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #1F1B19;
+}
+
+button {
+    width: 170px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #1F1B19;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 7px 11px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E7DED1;
+    border: 1px solid #B36C77;
+}
+
+a {
+    text-decoration: none;
+}
