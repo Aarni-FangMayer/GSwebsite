@@ -18,17 +18,6 @@
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-
-    animation: hero-bg-zoom 18s ease-in-out infinite alternate;
-}
-
-@keyframes hero-bg-zoom {
-    from {
-        background-size: cover;
-    }
-    to {
-        background-size: 112% auto;
-    }
 }
 
 .hero-home-section__content-text {
@@ -160,7 +149,6 @@
         background-size: cover;
         background-position: center bottom;
         background-repeat: no-repeat;
-        animation: hero-bg-zoom 18s ease-in-out infinite alternate;
     }
 
     .hero-home-section__content {
@@ -169,7 +157,6 @@
         height: 100%;
         grid-template-columns: repeat(6, 1fr);
         padding: 60px 0;
-        animation: none;
     }
 
     .hero-home-section__content-text {
@@ -235,11 +222,6 @@
 
 /* Уважение к настройкам пользователя */
 @media (prefers-reduced-motion: reduce) {
-    .hero-home-section,
-    .hero-home-section__content {
-        animation: none;
-    }
-
     .hero-home-section__title,
     .hero-home-section__subtitle,
     .hero-home-section__buttons {
