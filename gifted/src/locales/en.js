@@ -22,7 +22,7 @@ const en = {
     about: {
       title: "Built to ",
       highlight: "Stay In Memory",
-      subtitle: "Your brand deserves more than another cardboard box.",
+      subtitle: "Your brand deserves more than another cardboard box",
       cards: {
         exclusive: {
           title: "Exclusive Products",
@@ -68,7 +68,7 @@ const en = {
     steps: {
       title: "From brief to delivery",
       subtitle:
-        "The same three decisions, whatever the collection or the occasion.",
+        "The same three decisions, whatever the collection or the occasion",
       cards: {
         one: {
           title: "Choose a collection",
@@ -118,7 +118,7 @@ const en = {
       },
     },
     touch: {
-      title: "Let's create something worth keeping.",
+      title: "Let's create something worth keeping",
       mainButton: "Request a Quote",
       secondaryButton: "Explore collections",
     },
