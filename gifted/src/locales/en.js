@@ -45,6 +45,7 @@ const en = {
     collections: {
       title: "Explore ",
       highlight: "Our Collections",
+      buttonExplore: "Explore All collections",
       cards: {
         one: {
           number: "Object No.01",

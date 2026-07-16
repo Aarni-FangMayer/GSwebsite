@@ -199,6 +199,15 @@
 
 /* Совсем маленькие экраны */
 @media (max-width: 412px) {
+    .hero-home-section__content {
+        width: 100%;
+    }
+
+    .hero-home-section__content-text {
+        text-align: center;
+        gap: 20px;
+    }
+
     .hero-home-section__title {
         line-height: 56px;
         font-size: 46px;
@@ -211,6 +220,8 @@
     .hero-home-section__buttons {
         flex-direction: column;
         width: 95%;
+        margin: 0 auto;
+        gap: 10px;
     }
 
     .hero-home-section__request-button, .hero-home-section__explore-button {
