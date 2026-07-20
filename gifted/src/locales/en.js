@@ -123,6 +123,57 @@ const en = {
       secondaryButton: "Explore collections",
     },
   },
+  about: {
+    hero: {
+      title: "Why We Exist",
+      subtitle: "A Different Approach to Corporate Gifting",
+    },
+    quote: {
+      text: "Most corporate gifts are enjoyed for a moment. Others remain ",
+      highlight: "long after the occasion has passed.",
+    },
+    production: {
+      title: "Craft ",
+      highlight: "Before Contents",
+      subtitle: "Before a gift is filled, its story begins with craftsmanship. We believe exceptional products deserve packaging that reflects the same care, quality, and attention to detail.",
+      stepOne: {
+        title: "Handcrafted Packaging",
+        text: "Every box is assembled by hand in Finland using premium book-binding techniques and carefully selected designer papers. Built to be kept, not thrown away, our packaging becomes part of the gift itself.",
+      },
+      stepTwo: {
+        title: "Eco-Conscious",
+        text: "Premium materials can also be responsible. We use FSC-certified designer papers and recycled book-binding board to create packaging that respects both craftsmanship and the environment.",
+      },
+      afterthought: "The experience begins with what you hold before what you discover inside. A gift may be opened once. Great packaging stays much longer.",
+    },
+    partners: {
+      title: "Meet ",
+      highlight: "Our Partners",
+      subtitle: "Exceptional packaging deserves exceptional contents. That's why we partner with producers who share our commitment to quality.",
+      cards: {
+        one: {
+          text: "For over 75 years, Hatziyiannakis has remained committed to exceptional quality, preserving the tradition of authentic Greek dragée craftsmanship.",
+          website: "hatziyiannakis.gr",
+        },
+        two: {
+          text: "Finnish specialty coffee, responsibly sourced and roasted with an innovative electric process to preserve the unique character and flavour of every bean.",
+          website: "stockforscoffee.fi",
+        },
+        three: {
+          text: "Award-winning loose-leaf teas, chosen for their exceptional quality, refined flavour, and dedication to the craft of tea.",
+          website: "teemaa.fi",
+        },
+      },
+      btn: "Why We Chose Them",
+    },
+    intention: {
+      title: "Appreciation Deserves ",
+      highlight: "Intention",
+      btn: "Explore collections",
+      p1: "At Gifted Studio, we believe the best gifts become an extension of the company that gives them.",
+      p2: "That's why every collection begins long before the ribbon is tied. It begins with thoughtful choices.",
+    }
+  },
   footer: {
     brand: {
       description:
