@@ -58,7 +58,7 @@
     opacity: 0;
     transform: translateY(24px);
     transition: opacity 0.6s ease, transform 0.6s ease,
-                border-color 0.3s ease, box-shadow 0.3s ease;
+                border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .about-home-section__card.is-visible {
@@ -70,11 +70,11 @@
 .about-home-section__card:hover {
     border-color: #B36C77;
     box-shadow: 0 8px 24px rgba(31, 27, 25, 0.08);
-    transform: translateY(-4px);
+    /* transform: translateY(-4px); */
 }
 
 .about-home-section__card-icon img {
-    transition: transform 0.4s ease;
+    transition: transform 0.2s ease;
 }
 
 .about-home-section__card:hover .about-home-section__card-icon img {

@@ -1,5 +1,5 @@
 .collections-home-section {
-    background-color: #637159;
+    background-color: #E9E1D5;
     padding: 170px 0;
     position: relative;
     overflow: hidden;
@@ -34,25 +34,25 @@
 }
 
 .collections-home-section__title {
-    color: #6E2430;
+    color: #1F1B19;
 }
 
 .collections-home-section__title-hightlight {
-    color: #F6F2EB;
+    color: #6E2430;
     font-style: italic;
 }
 
 .collections-home-section__button {
-     border: 0.5px solid #F6F2EB;
-     color: #F6F2EB;
+     border: 0.5px solid #1F1B19;
+     color: #1F1B19;
      transition: background-color 0.3s ease, color 0.3s ease,
                  border-color 0.3s ease, transform 0.2s ease;
 }
 
 .collections-home-section__button:hover {
-    background-color: #F6F2EB;
-    color: #637159;
-    transform: translateY(-2px);
+    background-color: #6E2430;
+    color: #F6F2EB;
+    /* transform: translateY(-2px); */
 }
 
 .collections-home-section__button:active {

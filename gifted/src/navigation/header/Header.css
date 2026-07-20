@@ -84,18 +84,21 @@
 }
 
 .header-block__cta {
-    border: 1px solid #6E2430;
-    border-radius: 4px;
+    background-color: #6E2430;
+    border-radius: 0px;
+    color: #F6F2EB;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
     min-width: 170px;
     width: auto;
     letter-spacing: 0.3px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease,
-                border-color 0.3s ease, transform 0.2s ease;
 }
 
 .header-block__cta:hover {
-    transform: translateY(-1px);
+    /* transform: translateY(-1px); */
+    background-color: #A9814A;
+    border: none;
 }
 
 .header-block__cta:active {
@@ -103,9 +106,9 @@
     background-color: #ddd0bf;
 }
 
-.header-block__cta-highlight {
+/* .header-block__cta-highlight {
     color: #6E2430;
-}
+} */
 
 /* Focus-visible для доступности */
 .header-block a:focus-visible,

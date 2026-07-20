@@ -16,6 +16,7 @@
 }
 
 .language-select__button:hover {
+  color: #6E2430;
   border: none;
   background-color: transparent;
 }
@@ -27,6 +28,7 @@
 .arrow.open {
   transform: rotate(180deg);
 }
+
 
 .language-select__menu {
   position: absolute;

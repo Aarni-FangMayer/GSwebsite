@@ -76,11 +76,13 @@ button {
     padding: 7px 11px;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 4px;
+    border-radius: 0px;
 }
 
 button:hover {
-    background-color: #E7DED1;
+    background-color: #6E2430;
     border: 1px solid #B36C77;
+    color: #F6F2EB;
 }
 
 a {

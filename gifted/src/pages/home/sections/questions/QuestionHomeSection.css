@@ -40,7 +40,7 @@
     -moz-appearance: none;
     appearance: none;
     -webkit-tap-highlight-color: transparent;
-    padding: 20px 30px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,9 +48,8 @@
     cursor: pointer;
     text-align: left;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    color: #1F1B19;
+    font-size: 17px;
+    color: #A9814A;
     transition: color 0.3s ease;
 }
 
@@ -69,6 +68,11 @@
 }
 
 .questions-home-section__question:hover {
+    color: #6E2430;
+    background-color: transparent;
+}
+
+.questions-home-section__item.is-open .questions-home-section__question {
     color: #6E2430;
 }
 
@@ -94,6 +98,8 @@
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+
+
 .questions-home-section__icon-line--horizontal {
     width: 16px;
     height: 1.5px;
@@ -106,9 +112,15 @@
     transform: translate(-50%, -50%);
 }
 
+.questions-home-section__question:hover .questions-home-section__icon-line,
+.questions-home-section__question:focus-visible .questions-home-section__icon-line {
+    background-color: #6E2430;
+}
+
 /* Открытое состояние: вертикальная линия ложится на горизонтальную → "+" становится "−" */
 .questions-home-section__item.is-open .questions-home-section__icon-line--vertical {
     transform: translate(-50%, -50%) rotate(90deg);
+    background: #6E2430;
 }
 
 .questions-home-section__item.is-open .questions-home-section__icon-line {
@@ -126,7 +138,6 @@
 .questions-home-section__item.is-open .questions-home-section__answer-wrapper {
     max-height: 200px;
     opacity: 1;
-    padding: 0 30px;
 }
 
 .questions-home-section__answer {
@@ -135,7 +146,7 @@
     font-family: "Inter", sans-serif;
     font-size: 14px;
     line-height: 1.6;
-    color: #55504B;
+    color: #1F1B19;
 }
 
 @media (max-width: 1170px) {

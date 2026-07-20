@@ -88,13 +88,12 @@
 }
 
 .hero-home-section__request-button:hover {
-    color: #1F1B19;
-    background-color: #E7DED1;
-    transform: translateY(-2px);
+    background-color: #6E2430;
+    /* transform: translateY(-2px); */
 }
 
 .hero-home-section__explore-button:hover {
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
 }
 
 .hero-home-section__request-button:active,
