@@ -12,7 +12,8 @@ const AboutPage = () => {
   return (
     <>
       <HeroSectionAboutPage />
-      {/* <QuoteSectionAboutPage />
+      <QuoteSectionAboutPage />
+      {/* 
       <ProductionSectionAboutPage />
       <PartnersSectionAboutPage />
       <IntentionSectionAboutPage /> */}

@@ -1,0 +1,30 @@
+.quote-about-section {
+    width: 100%;
+    height: auto;
+    padding: 170px 0;
+}
+
+.quote-about-section__content {
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-about-section__text {
+    grid-column: 1/13;
+    justify-self: center;
+    align-self: center;
+    max-width: 427px;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+}
+
+.quote-about-section__highlight {
+    font-style: italic;
+    color: #6E2430;
+}
