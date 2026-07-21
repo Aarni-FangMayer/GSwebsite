@@ -10,9 +10,9 @@ const HeroSectionAboutPage = () => {
   return (
     <div className="hero-about-section">
       <div className="hero-about-section__content">
-        <div className="hero-home-section__content-text">
-          <h1 className="hero-home-section__title">{s.title}</h1>
-          <div className="hero-home-section__subtitle subtitle">{s.subtitle}</div>
+        <div className="hero-about-section__content-text">
+          <h1 className="hero-about-section__title">{s.title}</h1>
+          <div className="hero-about-section__subtitle subtitle">{s.subtitle}</div>
         </div>
       </div>
     </div>

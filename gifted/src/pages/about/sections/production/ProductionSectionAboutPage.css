@@ -1,0 +1,202 @@
+.production-about-section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 170px;
+
+}
+
+.production-about-section__content {
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.production-about-section__title {
+    grid-column: 2/12;
+    margin-bottom: 40px;
+}
+
+.production-about-section__title-highlight {
+    font-style: italic;
+    color: #6E2430;
+}
+
+.production-about-section__cards-mobile {
+    display: none;
+}
+
+.production-about-section__cards {
+    grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+}
+
+
+.production-about-section__cards-cell-1 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.production-about-section__cards-cell-2 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-image: url('../../../../assets/img/production_one_img.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.production-about-section__cards-cell-3 {
+    grid-column: 6/10;
+    grid-row: 1/2;
+    background-image: url('../../../../assets/img/production_two_img.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.production-about-section__cards-cell-4 {
+    grid-column: 6/10;
+    grid-row: 2/3;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.production-about-section__card-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.production-about-section__card-num {
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #6E2430;
+}
+
+.production-about-section__subtitle {
+    margin-bottom: 60px;
+    font-size: 17px;
+    color: #1F1B19;
+}
+
+.production-about-section__card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #a9814a;
+}
+
+.production-about-section__card-text {
+    color: #a9814a;
+}
+
+.production-about-section__afterthought {
+    margin-top: 60px;
+    font-size: 17px;
+    color: #1F1B19;
+}
+
+.production-about-section__cards-decor {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 72%;
+    background-color: #EFE8DE;
+    z-index: -10;
+}
+
+@media (max-width: 1170px) {
+    .production-about-section__title {
+        grid-column: 1/13;
+    }
+    .production-about-section__cards {
+        grid-column: 1/13;
+    }
+    .production-about-section__cards-decor {
+        top: 19%;
+        height: 65%;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .production-about-section__content {
+        width: 100%;
+        display: block;
+    }
+    
+    .production-about-section__cards {
+        display: none;
+    }
+    .production-about-section__title {
+        text-align: center;
+        margin: 0 auto 20px auto;
+        padding: 0 10px;
+        line-height: 1.2;
+    }
+    .production-about-section__cards-mobile {
+        display: block;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .production-about-section__subtitle {
+        grid-column: 3/11;
+        align-self: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .production-about-section__cards-content {
+        grid-column: 1/13;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-bottom: 30px;
+    }
+    .production-about-section__card-1, .production-about-section__card-4 {
+        background-color: #EFE8DE;
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .mobile-card-content__grid-1 {
+        grid-column: 2/12;
+    }
+    .production-about-section__card-2 {
+        background-image: url('../../../../assets/img/production_one_img.jpg');
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .production-about-section__card-3 {
+        background-image: url('../../../../assets/img/production_two_img.jpg');
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .mobile-card-content__grid-4 {
+        grid-column: 2/12;
+    }
+    .production-about-section__afterthought {
+        grid-column: 3/11;
+        align-self: center;
+        text-align: center;
+    }
+}

@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
 }
 
-.hero-home-section__content-text {
+.hero-about-section__content-text {
     grid-column: 2/12;
     align-self: center;
     justify-self: center;
@@ -27,12 +27,13 @@
     font-family: "Fraunces", serif;
 }
 
-.hero-home-section__title {
+.hero-about-section__title {
     color: #6E2430;
     font-style: italic;
+    margin-bottom: 15px;
 }
 
-.hero-home-section__subtitle {
+.hero-about-section__subtitle {
     font-style: italic;
 }
 
@@ -49,7 +50,7 @@
         grid-template-columns: repeat(6, 1fr);
         padding: 60px 0;
     }
-    .hero-home-section__content-text {
+    .hero-about-section__content-text {
         grid-column: 1/7;
     }
 }
