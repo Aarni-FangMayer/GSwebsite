@@ -154,14 +154,17 @@ const en = {
         one: {
           text: "For over 75 years, Hatziyiannakis has remained committed to exceptional quality, preserving the tradition of authentic Greek dragée craftsmanship.",
           website: "hatziyiannakis.gr",
+          link: "https://hatziyiannakis.gr",
         },
         two: {
           text: "Finnish specialty coffee, responsibly sourced and roasted with an innovative electric process to preserve the unique character and flavour of every bean.",
           website: "stockforscoffee.fi",
+          link: "https://stockforscoffee.fi/",
         },
         three: {
           text: "Award-winning loose-leaf teas, chosen for their exceptional quality, refined flavour, and dedication to the craft of tea.",
           website: "teemaa.fi",
+          link: "https://teemaa.fi",
         },
       },
       btn: "Why We Chose Them",
