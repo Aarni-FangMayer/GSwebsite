@@ -15,10 +15,7 @@ const AboutPage = () => {
       <QuoteSectionAboutPage />
       <ProductionSectionAboutPage />
       <PartnersSectionAboutPage />
-      {/* 
-      
-      
-      <IntentionSectionAboutPage /> */}
+      <IntentionSectionAboutPage />
     </>
   )
 }
