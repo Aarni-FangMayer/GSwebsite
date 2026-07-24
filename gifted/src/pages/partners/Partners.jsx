@@ -12,8 +12,9 @@ const Partners = () => {
     <>
       <HeroPartnersPage />
       <PhilosophyPartnersPage />
-      {/* 
       <CraftsmanshipPartnersPage />
+      {/* 
+      
       <PartnersPartnersPage />
       <ActionPartnersPage /> */}
     </>

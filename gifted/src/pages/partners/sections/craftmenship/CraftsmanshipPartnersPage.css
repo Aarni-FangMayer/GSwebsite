@@ -1,0 +1,124 @@
+.craftsmanship-partners-section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 170px;
+}
+
+.craftsmanship-partners-section__content {
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.craftsmanship-partners-section__image {
+    grid-column: 2/6;
+    background-image: url('/src/assets/img/partnera_craftsmanship.jpg');
+    height: auto;
+    min-height: 100px;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.craftsmanship-partners-section__text-group {
+    grid-column: 8/12;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.craftsmanship-partners-section__title-highlight {
+    color: #6E2430;
+    font-style: italic;
+}
+
+.craftsmanship-partners-section__p-highlight {
+    color: #6E2430;
+    font-weight: 600;
+}
+
+.craftsmanship-partners-section__circles {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.craftsmanship-partners-section__circle-group {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.craftsmanship-partners-section__circle {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 0.5px solid #6e24308a;
+    background-color: #F1ECE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.craftsmanship-partners-section__circle-image {
+    width: 30%;
+    height: auto;
+}
+
+.craftsmanship-partners-section__circle-subtitle {
+    color: #6E2430;
+    font-weight: 300;
+}
+
+@media (max-width: 1400px) {
+    .craftsmanship-partners-section__image {
+        grid-column: 2/7;
+    }
+    .craftsmanship-partners-section__text-group  {
+        grid-column: 8/12;
+    }
+    .craftsmanship-partners-section__circle-group {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .craftsmanship-partners-section__image {
+        grid-column: 1/7;
+    }
+    .craftsmanship-partners-section__text-group  {
+        grid-column: 8/13;
+    }
+}
+
+@media (max-width: 980px) {
+    .craftsmanship-partners-section__image {
+        display: none;
+    }
+    .craftsmanship-partners-section__text-group  {
+        grid-column: 1/13;
+    }
+    .craftsmanship-partners-section__circles{
+        justify-content: flex-start;
+        gap: 5%;
+    }
+    .craftsmanship-partners-section__circle-group {
+        width: 90px
+    }
+}
+
+@media (max-width: 480px) {
+    .craftsmanship-partners-section__circles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+    .craftsmanship-partners-section__circle-group {
+        width: 70%;
+        max-width: 140px;
+    }
+}
