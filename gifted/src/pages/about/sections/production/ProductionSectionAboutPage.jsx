@@ -35,8 +35,14 @@ const ProductionSectionAboutPage = () => {
               </div>
             </div>
           </div>
-          <div className="production-about-section__cards-cell-2 production-about-section__card-img"></div>
-          <div className="production-about-section__cards-cell-3 production-about-section__card-img"></div>
+          <div className="production-about-section__cards-cell-2 production-about-section__card-img-wrap">
+            <div className="production-about-section__card-img-decor"></div>
+            <div className="production-about-section__card-img production-about-section__card-img-2"></div>
+          </div>
+          <div className="production-about-section__cards-cell-3 production-about-section__card-img-wrap">
+            <div className="production-about-section__card-img-decor"></div>
+            <div className="production-about-section__card-img production-about-section__card-img-3"></div>
+          </div>
           <div className="production-about-section__cards-cell-4">
             <div className="production-about-section__card">
               <div className="production-about-section__card-num">02</div>
@@ -81,8 +87,8 @@ const ProductionSectionAboutPage = () => {
             </div>
           </div>
           <div className="production-about-section__afterthought">
-              {s.afterthought}
-            </div>
+            {s.afterthought}
+          </div>
         </div>
       </div>
     </div>

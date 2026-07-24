@@ -1,6 +1,6 @@
 .form-home-section {
     padding: 170px 0;
-    background-color: #1F1B19;
+    background-color: #DED9CB;
 }
 
 .form-home-section__content {
@@ -16,7 +16,7 @@
 
 .form-home-section__title {
     grid-column: 2/12;
-    color: #F6F2EB;
+    color: #1F1B19;
     margin-bottom: 60px;
 }
 
@@ -28,22 +28,28 @@
 }
 
 .form-home-section__button-open-modal {
-    background-color: #A9814A;
+    background-color: #6E2430;
     border-radius: 0px;
     color: #F6F2EB;
     border: none;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
-.form-home-section__button-open-modal:hover, .form-home-section__button-collections:hover {
-    background-color: #6E2430;
+.form-home-section__button-open-modal:hover {
+    background-color: #A9814A;
+    border: none;
 }
 
 .form-home-section__button-collections {
-    border: 0.5px solid #F6F2EB;
+    border: 0.5px solid #1F1B19;
     border-radius: 0px;
-    color: #F6F2EB;
+    color: #1F1B19;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-home-section__button-collections:hover {
+    background-color: #A9814A;
+    border: 0.5px solid #A9814A;
 }
 
 @media (max-width: 1170px) {
